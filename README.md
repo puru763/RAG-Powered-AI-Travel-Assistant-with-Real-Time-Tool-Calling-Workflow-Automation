@@ -1,7 +1,7 @@
 # Contextual-Multi-Model-Integration-Platform
 
 
-This project is a set of modular Spring Boot services that use the Spring AI framework to bring Large Language Model (LLM) capabilities into a traditional enterprise backend. The goal is to provide a flexible integration layer where existing Java microservices can safely and predictably use AI.
+This project is a set of modular Spring Boot services that use the Spring AI framework to bring Large Language Model (LLM) capabilities into a traditional enterprise backend. The goal is to provide a flexible integration layer where existing Java microservices can safely and predictably use AI. 
 
 What the Project Does
 
@@ -25,7 +25,7 @@ Agentic Tool Calling / Backend Function Orchestration
 
 Key Technologies and How They’re Used
 
-Spring Boot	  - Core framework for building modular REST APIs and services. Handles HTTP endpoints, configuration, and integrations.
-Spring AI - 	Provides a common abstraction for calling different LLM providers and vector stores. It powers the multi-model and RAG integration.
-Vector Database (Qdrant/PGVector) - 	Stores document embeddings and supports similarity search for the RAG pipeline. Used to fetch the most relevant context for each query.
-Java / POJOs	-  Business logic is implemented in plain Java. LLM outputs (often JSON) are mapped into typed POJOs to keep the system type-safe and maintainable.
+		Spring Boot	 - Core framework for building modular REST APIs and services. Handles HTTP endpoints, configuration, and integrations.
+		Spring AI - Provides a common abstraction for calling different LLM providers and vector stores. It powers the multi-model and RAG integration.
+		Vector Database(Qdrant/PGVector) - Stores document embeddings and supports similarity search for the RAG pipeline. Used to fetch the most relevant context for each query.
+		Java / POJOs	-  Business logic is implemented in plain Java. LLM outputs (often JSON) are mapped into typed POJOs to keep the system type-safe and maintainable.
