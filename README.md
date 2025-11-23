@@ -1,4 +1,4 @@
-# Contextual Multi-Model Integration Platform
+# RAG-Powered AI Travel Assistant with Real-Time Tool-Calling & Workflow Automation
 
 This project provides a modular Spring Boot framework that integrates Large Language Models into traditional enterprise microservices. It uses Spring AI to enable seamless connectivity with multiple AI providers and supports Retrieval-Augmented Generation through vector databases.
 
